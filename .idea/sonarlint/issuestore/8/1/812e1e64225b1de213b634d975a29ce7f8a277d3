@@ -1,20 +1,3 @@
 
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¦È×”¿1
-o
-java:S1128"RRemove this unused import 'com.innowave.requesthandler.RequestHandlerApplication'.(’¼ë¡8‘ŒÙ”¿1
-Y
-java:S1128"=Remove this unused import 'com.netflix.appinfo.InstanceInfo'.(»±!8Šé×”¿1
-a
-java:S1128"?Remove this unused import 'com.netflix.discovery.EurekaClient'.(Í–¦ªşÿÿÿÿ8Šé×”¿1
-i
-java:S1128"GRemove this unused import 'org.springframework.boot.SpringApplication'.(¯ìÙÿÿÿÿÿ8’ŒÙ”¿1
-h
-java:S1128	"KRemove this unused import 'org.springframework.context.ApplicationContext'.(»Ô»¿8’ŒÙ”¿1
-b
-java:S1128
-"ERemove this unused import 'org.springframework.core.env.Environment'.(¹‡¨¹8’ŒÙ”¿1
-h
-java:S1128"FRemove this unused import 'org.springframework.stereotype.Controller'.(øŠ—Öùÿÿÿÿ8Šé×”¿1
-_
-java:S1128"BRemove this unused import 'javax.servlet.http.HttpServletRequest'.(ø©¹…8Šé×”¿1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¦È×”¿1
