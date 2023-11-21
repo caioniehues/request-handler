@@ -4,8 +4,6 @@ spring:
     username: request-handler
     password: mysecretpassword
     driver-class-name: org.postgresql.Driver
-  application:
-    name: request-handler
 #server:
 #  port: 0
 eureka:

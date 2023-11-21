@@ -5,6 +5,7 @@ import com.netflix.appinfo.InstanceInfo;
 import com.netflix.discovery.EurekaClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
+import org.springframework.cloud.netflix.eureka.EurekaInstanceConfigBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Controller;
@@ -13,20 +14,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 
-@Controller
+@RestController
 public class TestController {
 
+    @Autowired
+    private EurekaInstanceConfigBean eurekaInstanceConfig;
 
     @GetMapping("/test")
     public String testService() {
-
-        ApplicationContext context = SpringApplication.run(RequestHandlerApplication.class);
-
-
-        Environment environment = context.getEnvironment();
-        String port = environment.getProperty("server.port");
-
-        System.out.println("Server is running on port: " + port);
-        return "Server is running on port: " + port;
-    }
+        return "Eureka Instance ID: " + eurekaInstanceConfig.getInstanceId();    }
 }
