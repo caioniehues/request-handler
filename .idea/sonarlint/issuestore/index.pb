@@ -20,3 +20,6 @@ Nsrc/main/java/pt/nos/ms/requesthandler/objects/auth/AuthenticationRequest.java
 Osrc/main/java/pt/nos/ms/requesthandler/objects/auth/AuthenticationResponse.java,c\5\c5e0fead2f77d3df3556fcf15868544ccadf5ea8
 z
 Jsrc/test/java/pt/nos/ms/requesthandler/RequestHandlerApplicationTests.java,5\6\56b69bc531cbe45501e17505363bd19941b708bc
+:
+
+Dockerfile,6\6\6651ddff6eb82c840ced7c1dddee15c6e1913dd4
