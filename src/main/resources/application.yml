@@ -1,0 +1,9 @@
+#spring:
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/request-handler
+#    username: request-handler
+#    password: mysecretpassword
+#    driver-class-name: org.postgresql.Driver
+#
+
+
