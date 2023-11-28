@@ -17,7 +17,7 @@ public class TestController {
     }
 
 
-    @GetMapping("/")
+    @GetMapping("/auth")
     public String authTest() throws JsonProcessingException {
 
         ObjectMapper objectMapper = new ObjectMapper();
